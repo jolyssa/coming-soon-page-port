@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(17, 82, 222);
+    color: rgb(249, 230, 230);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+}
+
+
+div{
+    border: 8px double rgb(243, 240, 240);
+    padding: 3em;
+    border-radius: 6px;
+    animation: div 2s ease 0s 1 normal forwards;
+}
+
+@keyframes div {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+div h1 {
+    text-align: center;
+    margin: 15px;
+}
